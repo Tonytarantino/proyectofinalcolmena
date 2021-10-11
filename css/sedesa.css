@@ -1,0 +1,279 @@
+header nav.miColorFondo {
+  background-color: #880e4f;
+}
+
+header nav div.container-fluid ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+  margin-left: 40px;
+}
+
+header nav div.container-fluid.collapse form.d-flex button.boton {
+  border: 2px solid black;
+}
+
+footer {
+  background-color: #880e4f;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  footer ul {
+    max-width: 100%;
+  }
+}
+
+footer ul.nav li.nav-item a.nav-link {
+  color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+}
+
+img {
+  max-width: 90%;
+  margin: 10px;
+}
+
+div.cursosIntroductorios {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.cursosIntroductorios {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+div.cursosIntroductorios h1 {
+  color: #880e4f;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.cursosIntroductorios h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+div.cursosIntroductorios p {
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+div.cursosIntroductorios div.cursoIntro_miBoton {
+  text-align: center;
+}
+
+div.cursosIntroductorios div.cursoIntro_miBoton button.miBoton {
+  background-color: #880e4f;
+  color: white;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 30px;
+  margin-bottom: 100px;
+  border-radius: 0;
+}
+
+div.cursosIntroductorios div.cursoIntro_miBoton button.miBoton:hover {
+  background-color: white;
+  color: #880e4f;
+  border: 1px solid #880e4f;
+  border-radius: 0;
+}
+
+div.curso {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.curso {
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  div.curso div.curso_fila {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  div.curso div.curso_fila div.curso_col {
+    max-width: 300px;
+  }
+}
+
+div.curso div.curso_fila div.curso_col div.curso_info {
+  margin: 30px;
+  text-align: start;
+}
+
+@media screen and (max-width: 1080px) {
+  div.curso div.curso_fila div.curso_col div.curso_info {
+    text-align: center;
+  }
+}
+
+div.curso div.curso_fila div.curso_col div.curso_info div.curso_detalles ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+div.curso div.curso_fila div.curso_col div.curso_info div.curso_detalles ul li span {
+  margin: 5px;
+}
+
+div.curso div.curso_fila div.curso_col div.curso_info div.curso_boton {
+  text-align: center;
+  margin-top: 50px;
+}
+
+div.curso div.curso_fila div.curso_col div.curso_info div.curso_boton button.curso_miBoton {
+  color: #880e4f;
+  background-color: white;
+  border: 1px solid #880e4f;
+  border-radius: 0;
+  padding: 3px;
+}
+
+div.curso div.curso_fila div.curso_col div.curso_info div.curso_boton button.curso_miBoton:hover {
+  background-color: #880e4f;
+  color: white;
+}
+
+div.curso div.curso_fila div.curso_col_img img.curso_img {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.agenda_contenedor {
+  border: 2px solid #880e4f;
+  margin: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.agenda_contenedor {
+    border: none;
+    margin: 0 auto;
+    /* max-width: 300px; */
+  }
+}
+
+div.agenda_contenedor h2.agenda_titulo {
+  color: #880e4f;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+  div.agenda_contenedor h2.agenda_titulo {
+    max-width: 100%;
+  }
+}
+
+div.agenda_contenedor div.list-group {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+  div.agenda_contenedor div.list-group {
+    max-width: 100%;
+    margin: 0;
+    /* margin-top: 10px; */
+    display: block;
+  }
+}
+
+div.agenda_contenedor div.list-group a.list-group-item {
+  margin: 10px;
+  border: none;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  color: black;
+  background-color: #fcedf5;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  div.agenda_contenedor div.list-group a.list-group-item {
+    max-width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+}
+
+div.agenda_contenedor div.list-group a.list-group-item:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.pagos {
+  margin-top: 100px;
+}
+
+div.pago_forma {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+div.pago_forma a {
+  color: #880e4f;
+  text-decoration: none;
+}
+
+div.pago_forma h4.pago_subtitulo {
+  color: #880e4f;
+}
+
+div.pago_forma i.fa-credit-card {
+  font-size: 70px;
+  margin: 10px;
+}
+
+div h2.pagos_titulo {
+  margin-top: 50px;
+  color: #880e4f;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.pago_forma {
+    max-width: 300px;
+  }
+}
+/*# sourceMappingURL=sedesa.css.map */

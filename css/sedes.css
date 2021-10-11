@@ -1,0 +1,61 @@
+header nav.miColorFondo {
+  background-color: #880e4f;
+}
+
+header nav div.container-fluid ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+  margin-left: 40px;
+}
+
+header nav div.container-fluid.collapse form.d-flex button.boton {
+  border: 2px solid black;
+}
+
+footer {
+  background-color: #880e4f;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  footer ul {
+    max-width: 100%;
+  }
+}
+
+footer ul.nav li.nav-item a.nav-link {
+  color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+div.sedes_contenedor div.sedes_columna div.card-body h5.card-title {
+  color: #880e4f;
+}
+
+div.sedes_contenedor div.sedes_columna div.card-body a.sedes_mapa {
+  color: #880e4f;
+}
+
+div.sedes_contenedor div.sedes_columna div.sedes_card {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.sedes_contenedor div.sedes_columna div.sedes_card img.card-img-top {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 300px;
+}
+/*# sourceMappingURL=sedes.css.map */

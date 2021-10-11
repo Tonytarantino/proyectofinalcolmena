@@ -1,0 +1,26 @@
+/* titulo del carrusel */
+h2 {
+    &.tituloInicio {
+        font-size: 200px;
+        margin-bottom: 50px;  
+        
+    }
+}
+p {
+    &.subtituloInicio {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    &.desripcion_carrusel {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+}
+
+h5 {
+    &.subtitulo_carrusel {
+        font-size: 50px;
+        margin-bottom: 100px;
+       /*  font-weight: 400; */
+    }
+}

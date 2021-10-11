@@ -1,0 +1,165 @@
+@import "variables";
+@import "navbar";
+@import "carrusel";
+@import "footer";
+
+body {
+    font-family: $miTipografia;
+}
+
+/* bloques unoy dos */
+div {
+    &.contenedorPrueba {
+        @media screen and (max-width: 1080px) {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        margin: 50px;
+        margin-top: 100px;
+        padding: 15px;
+        text-align: center;
+        div {
+            &.beneficios {
+                text-align: center;
+                ul {
+                    &.beneficios_lista {
+                        text-align: start;
+                        color: black;
+                    }
+                }
+                h2 {
+                    &.bloque_subtitulo {
+                        color: $colorPrimario;
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+        }
+        div {
+            &.filaPrueba {
+                div {
+                    &.columnaPrueba {
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        div {
+                            &.nuestraFilosofia {
+                                h2 {
+                                    &.bloque_subtitulo {
+                                        color: $colorPrimario;
+                                        margin-bottom: 50px;
+                                    }
+                                }
+                                p {
+                                    &.parrafoPrueba {
+                                        text-align: justify;
+                                    }
+                                }
+                            }
+                        }
+                        img {
+                            &.imgEjemplo {
+                                width: 100%;
+                                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                            }
+                            &.imgEjemplo {
+                                @media screen and (max-width: 1080px) {
+                                    width: 300px;
+                                    height: auto;
+                                    margin: 0 auto;
+                                    margin-bottom: 20px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* end bloques uno y dos */
+h2 {
+    &.subtitulo {
+        text-align: center;
+        margin: 50px;
+        color: $colorPrimario;
+    }
+}
+div {
+    &.bloqueTres {
+        background-color: $colorAcento;
+    }
+}
+/* card */
+div {
+    &.cardContainer {
+        div {
+            &.col {
+                div {
+                    &.card {
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        text-align: center;
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div {
+    &.callAction {
+        margin-top: 70px;
+        text-align: center;
+        margin-bottom: 100px;
+
+        h2 {
+            &.callAction_titulo {
+                color: $colorPrimario;
+                font-size: 50px;
+                margin-bottom: 50px;
+            }      
+        }
+        button {
+            &.miBoton {
+                background-color:$colorPrimario;
+                color: white;
+                border: none;
+                box-shadow: $sombra;
+            }
+            &.miBoton:hover{
+                background-color: $colorTerciario;
+                color: $colorPrimario;
+                border: 1px solid $colorPrimario;
+               
+            }
+        }
+    }
+}
+
+/* end call */
+
+/* footer */
+
+footer {
+    background-color: $colorPrimario;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    ul {
+        &.nav {
+            li {
+                &.nav-item {
+                    a {
+                        &.nav-link {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+header {
+    nav {
+       
+        &.miColorFondo {        
+            background-color: $colorPrimario;
+        }
+        div{      
+            &.container-fluid {         
+               
+                ul {       
+                    &.navbar-nav{
+                        li{                
+                            &.nav-item {
+                                a {
+                                    &.nav-link {
+                                        color: white;
+                                        margin-left: 40px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.collapse{
+                    form {
+                        &.d-flex {
+                            button {
+                                &.boton {
+                                    border: 2px solid black;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+}

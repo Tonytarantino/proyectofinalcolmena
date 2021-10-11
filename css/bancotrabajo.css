@@ -1,0 +1,63 @@
+header nav.miColorFondo {
+  background-color: #880e4f;
+}
+
+header nav div.container-fluid ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+  margin-left: 40px;
+}
+
+header nav div.container-fluid.collapse form.d-flex button.boton {
+  border: 2px solid black;
+}
+
+footer {
+  background-color: #880e4f;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  footer ul {
+    max-width: 100%;
+  }
+}
+
+footer ul.nav li.nav-item a.nav-link {
+  color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 700px;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+div.error {
+  height: 300px;
+  width: auto;
+  background-image: url(https://media.giphy.com/media/9Pmfi0HtSpGSiuB991/giphy.gif?cid=ecf05e47w24bopnmjn1voljyy9dglfavrc6hzj8x1esytqpy&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: #880e4f;
+  margin: 50px;
+}
+/*# sourceMappingURL=bancotrabajo.css.map */

@@ -1,0 +1,233 @@
+@import "variables";
+@import "navbar";
+@import "mixing";
+@import "footer";
+
+body {
+    font-family: $miTipografia;
+    max-width: 100%;
+}
+
+img {
+    max-width: 90%;
+    margin: 10px;
+}
+
+div {
+    &.cursosIntroductorios {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 100px;
+        @media screen and (max-width: 1080px) {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: $colorPrimario;
+            margin-bottom: 30px;
+            @media screen and (max-width: 1080px) {
+                text-align: center;
+                margin-top: 30px;
+            }
+        }
+        p {
+            margin: 30px;
+            margin-bottom: 50px;
+        }
+        div {
+            &.cursoIntro_miBoton {
+                text-align: center;
+                button {
+                    &.miBoton {
+                        background-color: $colorPrimario;
+                        color: white;
+                        border: none;
+                        box-shadow: $sombra;
+                        margin: 30px;
+                        margin-bottom: 100px;
+                        border-radius: 0;
+                    }
+                    &.miBoton:hover {
+                        background-color: white;
+                        color: $colorPrimario;
+                        border: 1px solid $colorPrimario;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div {
+    &.curso {
+        margin-top: 50px;
+        margin-bottom: 80px;
+        @media screen and (max-width: 1080px) {
+            max-width: 100%;
+            text-align: center;
+            padding: 0;
+        }
+        div {
+            &.curso_fila {
+                @media screen and (max-width: 1080px) {
+                    max-width: 300px;
+                    display: block;
+                    margin: 0 auto;
+                }
+                div {
+                    &.curso_col {
+                        @media screen and (max-width: 1080px) {
+                            max-width: 300px;
+                        }
+                        div {
+                            &.curso_info {
+                                margin: 30px;
+                                text-align: start;
+                                @media screen and (max-width: 1080px) {
+                                    text-align: center;
+                                }
+                                div {
+                                    &.curso_detalles {
+                                        ul {
+                                            list-style: none;
+                                            margin-top: 30px;
+                                            li {
+                                                span {
+                                                    margin: 5px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.curso_boton {
+                                        text-align: center;
+                                        margin-top: 50px;
+
+                                        button {
+                                            &.curso_miBoton {
+                                                color: $colorPrimario;
+                                                background-color: $colorSecundario;
+                                                border: 1px solid $colorPrimario;
+                                                border-radius: 0;
+                                                padding: 3px;
+                                            }
+                                            &.curso_miBoton:hover {
+                                                background-color: $colorPrimario;
+                                                color: white;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.curso_col_img {
+                        img {
+                            &.curso_img {
+                                width: 90%;
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+div {
+    &.agenda_contenedor {
+        border: 2px solid $colorPrimario;
+        margin: 30px;
+        @media screen and (max-width: 1080px) {
+            border: none;
+            margin: 0 auto;
+            /* max-width: 300px; */
+        }
+        h2 {
+            &.agenda_titulo {
+                color: $colorPrimario;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                text-align: center;
+                @media screen and (max-width: 1080px) {
+                    max-width: 100%;
+                }
+            }
+        }
+        div {
+            &.list-group {
+                max-width: 90%;
+                margin: 0 auto;
+                @media screen and (max-width: 1080px) {
+                    max-width: 100%;
+                    margin: 0;
+                    /* margin-top: 10px; */
+                    display: block;
+                }
+                a {
+                    &.list-group-item {
+                        margin: 10px;
+                        border: none;
+                        box-shadow: $sombraDos;
+                        color: black;
+                        background-color: $colorTerciario;
+                        border-radius: 0;
+                        @media screen and (max-width: 1080px) {
+                            max-width: 100%;
+
+                            margin: 0;
+                            margin-top: 10px;
+                        }
+                    }
+                    &.list-group-item:hover {
+                        box-shadow: $sombra;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div {
+    &.pagos {
+        margin-top: 100px;
+    }
+    &.pago_forma {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: $sombra;
+        padding: 30px;
+        margin-bottom: 100px;
+        a {
+            color: $colorPrimario;
+            text-decoration: none;
+        }
+        h4 {
+            &.pago_subtitulo {
+                color: $colorPrimario;
+            }
+        }
+        i {
+            &.fa-credit-card {
+                font-size: 70px;
+                margin: 10px;
+            }
+        }
+    }
+    h2 {
+        &.pagos_titulo {
+            margin-top: 50px;
+            color: $colorPrimario;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+    }
+    &.pago_forma {
+        @media screen and (max-width: 1080px) {
+            max-width: 300px;
+        }
+    }
+}

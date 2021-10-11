@@ -1,0 +1,149 @@
+header nav.miColorFondo {
+  background-color: #880e4f;
+}
+
+header nav div.container-fluid ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+  margin-left: 40px;
+}
+
+header nav div.container-fluid.collapse form.d-flex button.boton {
+  border: 2px solid black;
+}
+
+footer {
+  background-color: #880e4f;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  footer ul {
+    max-width: 100%;
+  }
+}
+
+footer ul.nav li.nav-item a.nav-link {
+  color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+div.nosotras {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+div.nosotras h1.nosotras_titulo {
+  color: #880e4f;
+}
+
+div.nosotras p.nosotras_intro {
+  text-align: justify;
+  margin: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.nosotras p.nosotras_intro {
+    margin: 3px;
+  }
+}
+
+div.nosotras h2.nosotras_lema {
+  margin-top: 100px;
+  color: #880e4f;
+}
+
+div.nosotras_contactate {
+  text-align: center;
+  margin: 100px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.nosotras_contactate {
+    margin: 5px;
+  }
+}
+
+div.nosotras_contactate p.nosotras_contactateParrafo {
+  margin: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.nosotras_contactate p.nosotras_contactateParrafo {
+    margin: 5px;
+    text-align: start;
+  }
+}
+
+div.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.formulario div.formulario_campos {
+  width: 50%;
+  margin: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.formulario div.formulario_campos {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+div.formulario div.formulario_campos div.formulario_boton {
+  text-align: center;
+}
+
+div.formulario div.formulario_campos div.formulario_boton button.btn {
+  background-color: #880e4f;
+  color: white;
+}
+
+div.formulario div.formulario_campos div.formulario_boton button.btn:hover {
+  background-color: white;
+  color: #880e4f;
+  border: 1px solid #880e4f;
+  font-weight: bolder;
+}
+
+div.formulario div.formulario_img img {
+  margin: 10px;
+  width: 80%;
+}
+
+@media screen and (max-width: 1080px) {
+  body div.nosotras {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  body div.formulario {
+    display: block;
+  }
+  body div.formulario div.formulario_campos {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  body div.formulario div.formulario_img {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=contacto.css.map */

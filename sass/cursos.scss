@@ -1,0 +1,253 @@
+@import "variables";
+@import "navbar";
+@import "footer";
+
+body {
+    font-family: $miTipografia;
+}
+
+div {
+    &.cursosIntroductorios {
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 100px;
+        h1 {
+            color: $colorPrimario;
+            margin-bottom: 30px;
+        }
+        p {
+            margin: 30px;
+            margin-bottom: 50px;
+        }
+        button {
+            &.miBoton {
+                background-color: $colorPrimario;
+                color: white;
+                border: none;
+                box-shadow: $sombra;
+            }
+            &.miBoton:hover {
+                background-color: white;
+                color: $colorPrimario;
+                border: 1px solid $colorPrimario;
+            }
+        }
+    }
+    &.cursosIntroductorios {
+        @media screen and (max-width: 1080px) {
+            width: 300px;
+
+            margin: 0 auto;
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
+}
+
+div {
+    &.cursos {
+        div {
+            &.curso_seccion {
+                display: flex;
+                margin-top: 100px;
+                div {
+                    &.curso_info {
+                        margin: 50px;
+                        h2 {
+                            color: $colorPrimario;
+                        }
+                        div {
+                            &.curso_detalles {
+                                ul {
+                                    list-style: none;
+                                    margin-top: 50px;
+                                    margin-bottom: 50px;
+                                    li {
+                                        margin: 20px;
+                                        span {
+                                            &.curso_detalle_caracteristica {
+                                                margin-left: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        div {
+                            &.curso_boton {
+                                text-align: center;
+                                button {
+                                    &.curso_miBoton {
+                                        background-color: $colorAcento;
+                                        border: 1px solid $colorPrimario;
+                                        color: $colorPrimario;
+                                        margin: 0 auto;
+                                    }
+                                    &.curso_miBoton:hover {
+                                        background-color: $colorPrimario;
+                                        color: white;
+                                        box-shadow: $sombra;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.curso_info {
+                        @media screen and (max-width: 1080px) {
+                            width: 300px;
+                            text-align: center;
+                        }
+
+                        /* img {
+                            &.curso_img {
+                                width: 500px;
+                                box-shadow: $sombra;
+                                margin: 50px;
+                                margin-top: 70px;
+                            } */
+                    }
+                }
+                div {
+                    &.curso_contenedorImagen {
+                        img {
+                            &.curso_img {
+                                width: 500px;
+                                box-shadow: $sombra;
+                                margin: 50px;
+                                margin-top: 70px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.curso_seccion {
+                @media screen and (max-width: 1080px) {
+                    display: block;
+                    text-align: center;
+                    div {
+                        &.curso_info {
+                            text-align: center;
+                            max-width: 300px;
+                            padding: 3px;
+                        }
+                        &.curso_contenedorImagen {
+                            max-width: 300px;
+                            margin: 0 auto;
+                            padding: 0;
+
+                            img {
+                                &.curso_img {
+                                    width: 300px;
+                                    box-shadow: $sombra;
+                                    margin: 0;
+                                    margin-top: 70px;
+                                }
+                            }
+                        }
+                    }
+                    main {
+                        div {
+                            &.cursosIntroductorio {
+                                max-width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+div {
+    &.cronograma {
+        div {
+            &.cronograma_titulo {
+                h2 {
+                    &.cronograma_titulo_h2 {
+                        color: $colorPrimario;
+                        margin-bottom: 30px;
+                        margin-top: 30px;
+                        text-align: center;
+                    }
+                }
+            }
+            &.list-group {
+                margin: 40px;
+                a {
+                    &.list-group-item {
+                        background-color: $colorAcento;
+                        color: black;
+                        margin-bottom: 10px;
+                        box-shadow: $sombra;
+                    }
+                    &.list-group-item:hover {
+                        background-color: $colorPrimario;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    &.cronograma {
+        @media screen and (max-width: 1080px) {
+           
+            div {
+                &.list-group {
+                    max-width: 300px;
+                    margin: 5px auto;
+                    
+                    a {
+                        &.list-group-item {
+                            padding: 5px;
+
+                            h4 {
+                                &.cronograma_curso {
+                                    font-size: small;
+                                }
+                            }
+                            p {
+                                &.cronograma_detalle {
+                                    font-size: x-small;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+div {
+    &.pago_forma {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: $sombra;
+        padding: 30px;
+        margin-bottom: 100px;
+        h4 {
+            &.pago_subtitulo {
+                color: $colorPrimario;
+            }
+        }
+        i {
+            &.fa-credit-card {
+                font-size: 70px;
+                margin: 10px;
+            }
+        }
+    }
+    h2 {
+        &.pagos_titulo {
+            color: $colorPrimario;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+    }
+    &.pago_forma {
+        @media screen and (max-width: 1080px) {
+            max-width: 300px;
+        }
+    }
+}

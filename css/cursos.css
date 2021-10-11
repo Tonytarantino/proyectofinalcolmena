@@ -1,0 +1,252 @@
+header nav.miColorFondo {
+  background-color: #880e4f;
+}
+
+header nav div.container-fluid ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+  margin-left: 40px;
+}
+
+header nav div.container-fluid.collapse form.d-flex button.boton {
+  border: 2px solid black;
+}
+
+footer {
+  background-color: #880e4f;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  footer ul {
+    max-width: 100%;
+  }
+}
+
+footer ul.nav li.nav-item a.nav-link {
+  color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+div.cursosIntroductorios {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+div.cursosIntroductorios h1 {
+  color: #880e4f;
+  margin-bottom: 30px;
+}
+
+div.cursosIntroductorios p {
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+div.cursosIntroductorios button.miBoton {
+  background-color: #880e4f;
+  color: white;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.cursosIntroductorios button.miBoton:hover {
+  background-color: white;
+  color: #880e4f;
+  border: 1px solid #880e4f;
+}
+
+@media screen and (max-width: 1080px) {
+  div.cursosIntroductorios {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+div.cursos div.curso_seccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+}
+
+div.cursos div.curso_seccion div.curso_info {
+  margin: 50px;
+}
+
+div.cursos div.curso_seccion div.curso_info h2 {
+  color: #880e4f;
+}
+
+div.cursos div.curso_seccion div.curso_info div.curso_detalles ul {
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div.cursos div.curso_seccion div.curso_info div.curso_detalles ul li {
+  margin: 20px;
+}
+
+div.cursos div.curso_seccion div.curso_info div.curso_detalles ul li span.curso_detalle_caracteristica {
+  margin-left: 10px;
+}
+
+div.cursos div.curso_seccion div.curso_info div.curso_boton {
+  text-align: center;
+}
+
+div.cursos div.curso_seccion div.curso_info div.curso_boton button.curso_miBoton {
+  background-color: #880e4f1f;
+  border: 1px solid #880e4f;
+  color: #880e4f;
+  margin: 0 auto;
+}
+
+div.cursos div.curso_seccion div.curso_info div.curso_boton button.curso_miBoton:hover {
+  background-color: #880e4f;
+  color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.cursos div.curso_seccion div.curso_info {
+  /* img {
+                            &.curso_img {
+                                width: 500px;
+                                box-shadow: $sombra;
+                                margin: 50px;
+                                margin-top: 70px;
+                            } */
+}
+
+@media screen and (max-width: 1080px) {
+  div.cursos div.curso_seccion div.curso_info {
+    width: 300px;
+    text-align: center;
+  }
+}
+
+div.cursos div.curso_seccion div.curso_contenedorImagen img.curso_img {
+  width: 500px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 50px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.cursos div.curso_seccion {
+    display: block;
+    text-align: center;
+  }
+  div.cursos div.curso_seccion div.curso_info {
+    text-align: center;
+    max-width: 300px;
+    padding: 3px;
+  }
+  div.cursos div.curso_seccion div.curso_contenedorImagen {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  div.cursos div.curso_seccion div.curso_contenedorImagen img.curso_img {
+    width: 300px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0;
+    margin-top: 70px;
+  }
+  div.cursos div.curso_seccion main div.cursosIntroductorio {
+    max-width: 100%;
+  }
+}
+
+div.cronograma div.cronograma_titulo h2.cronograma_titulo_h2 {
+  color: #880e4f;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+div.cronograma div.list-group {
+  margin: 40px;
+}
+
+div.cronograma div.list-group a.list-group-item {
+  background-color: #880e4f1f;
+  color: black;
+  margin-bottom: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.cronograma div.list-group a.list-group-item:hover {
+  background-color: #880e4f;
+  color: white;
+}
+
+@media screen and (max-width: 1080px) {
+  div.cronograma div.list-group {
+    max-width: 300px;
+    margin: 5px auto;
+  }
+  div.cronograma div.list-group a.list-group-item {
+    padding: 5px;
+  }
+  div.cronograma div.list-group a.list-group-item h4.cronograma_curso {
+    font-size: small;
+  }
+  div.cronograma div.list-group a.list-group-item p.cronograma_detalle {
+    font-size: x-small;
+  }
+}
+
+div.pago_forma {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+div.pago_forma h4.pago_subtitulo {
+  color: #880e4f;
+}
+
+div.pago_forma i.fa-credit-card {
+  font-size: 70px;
+  margin: 10px;
+}
+
+div h2.pagos_titulo {
+  color: #880e4f;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+  div.pago_forma {
+    max-width: 300px;
+  }
+}
+/*# sourceMappingURL=cursos.css.map */

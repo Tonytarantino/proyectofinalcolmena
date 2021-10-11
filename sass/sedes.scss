@@ -1,0 +1,43 @@
+@import "variables";
+@import "navbar";
+@import "footer";
+
+body {
+    font-family: $miTipografia;
+}
+div {
+    &.sedes_contenedor {
+        div {
+            &.sedes_columna {
+                div {
+                    &.card-body {
+                        h5 {
+                            &.card-title {
+                                color: $colorPrimario;
+                            }
+                        }
+                        a {
+                            &.sedes_mapa {
+                                color: $colorPrimario;
+                            }
+                        }
+                    }
+                }
+                div {
+                    &.sedes_card {
+                        box-shadow: $sombra;
+                        
+                        img {
+                            &.card-img-top {
+                                object-fit:fill;
+                                height: 300px;
+                                
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
